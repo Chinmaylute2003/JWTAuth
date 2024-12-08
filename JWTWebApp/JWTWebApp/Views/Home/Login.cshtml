@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="row">
+   <div class="col-md-5">
+       <div class="row">
+           <label>Email: </label>
+           <input type="email" + name="email"/>
+       </div>
+       <div class="row">
+           <label>Password: </label>
+           <input type="password" name="password"/>
+       </div>
+       <div class="row">
+           <div class="col-md-3"><button class="btn btn-success">Login</button></div>
+       </div>
+   </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        $("button").click(() => {
+            const email = $("input[name=email]").val();
+            const password = $("input[name=password]").val();
+
+            $.ajax({
+                url : "/api/user/authenticate"
+                method : "POST",
+                contentType: "application/json",
+                data: JSON.stringify(new { Email: email, Password: password }),
+                success: (res) => {
+                    console.log(res);
+                },
+                error: (err) => console.log(err);
+                
+            })
+        })
+    })
+</script>

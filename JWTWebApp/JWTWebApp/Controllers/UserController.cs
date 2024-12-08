@@ -6,6 +6,7 @@ using JWTWebApp.Service;
 using JWTWebApp.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using System.Net;
 
 namespace JWTWebApp.Controllers
 {
@@ -30,6 +31,15 @@ namespace JWTWebApp.Controllers
             {
                 return BadRequest(new { msg = "Unauthorized" });
             }
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true, // Cookie is not accessible via JavaScript
+                Secure = true,   // Set to true in production (use HTTPS)
+                SameSite = SameSiteMode.Strict, // Prevent CSRF attacks
+                Expires = DateTime.UtcNow.AddHours(1) // Set expiration for the cookie
+            };
+
+            this.HttpContext.Response.Cookies.Append("YourAppAuthCookie", res.Token, cookieOptions);
             return Ok(res);
 
         }
@@ -42,5 +52,7 @@ namespace JWTWebApp.Controllers
         {
             return  Ok(_usersvc.GetAll());
         }
+
+        
     }
 }

@@ -49,6 +49,8 @@ namespace JWTWebApp.Service
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
             var tokenStr = tokenHandler.WriteToken(token);
+
+    
             return new AuthenticateResponse(user, tokenStr);
 
         }

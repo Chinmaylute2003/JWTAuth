@@ -9,11 +9,15 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JWTWebApp
 build_property.RootNamespace = JWTWebApp
-build_property.ProjectDir = E:\projects\Greenfield\JWTWebApp\JWTWebApp\
+build_property.ProjectDir = E:\projects\JWT\JWTAuth\JWTWebApp\JWTWebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\projects\Greenfield\JWTWebApp\JWTWebApp
+build_property.MSBuildProjectDirectory = E:\projects\JWT\JWTAuth\JWTWebApp\JWTWebApp
 build_property._RazorSourceGeneratorDebug = 
+
+[E:/projects/JWT/JWTAuth/JWTWebApp/JWTWebApp/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

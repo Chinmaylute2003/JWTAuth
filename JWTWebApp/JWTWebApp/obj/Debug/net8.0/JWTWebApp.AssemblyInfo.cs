@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JWTWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3e61cd3821023085425aed2a11d54d0b3a69f68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e71510b2758f8e9637806213a676cc657e84e6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("JWTWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JWTWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

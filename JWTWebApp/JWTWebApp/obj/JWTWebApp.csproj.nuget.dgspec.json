@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\Greenfield\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj": {}
+    "E:\\projects\\JWT\\JWTAuth\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj": {}
   },
   "projects": {
-    "E:\\projects\\Greenfield\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj": {
+    "E:\\projects\\JWT\\JWTAuth\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\Greenfield\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj",
+        "projectUniqueName": "E:\\projects\\JWT\\JWTAuth\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj",
         "projectName": "JWTWebApp",
-        "projectPath": "E:\\projects\\Greenfield\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj",
+        "projectPath": "E:\\projects\\JWT\\JWTAuth\\JWTWebApp\\JWTWebApp\\JWTWebApp.csproj",
         "packagesPath": "C:\\Users\\chinmay.lute\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\Greenfield\\JWTWebApp\\JWTWebApp\\obj\\",
+        "outputPath": "E:\\projects\\JWT\\JWTAuth\\JWTWebApp\\JWTWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chinmay.lute\\AppData\\Roaming\\NuGet\\NuGet.Config",

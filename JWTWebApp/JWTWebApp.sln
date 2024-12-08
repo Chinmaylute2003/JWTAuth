@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTWebApp", "JWTWebApp\JWTWebApp.csproj", "{43610D35-B2FD-45E3-990F-5A9A78A03211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTWebApp", "JWTWebApp\JWTWebApp.csproj", "{43610D35-B2FD-45E3-990F-5A9A78A03211}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthPortalWeb", "AuthPortalWeb\AuthPortalWeb.csproj", "{2B706CD2-AD26-4BDA-87D1-9535A00E9A49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{43610D35-B2FD-45E3-990F-5A9A78A03211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43610D35-B2FD-45E3-990F-5A9A78A03211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43610D35-B2FD-45E3-990F-5A9A78A03211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B706CD2-AD26-4BDA-87D1-9535A00E9A49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B706CD2-AD26-4BDA-87D1-9535A00E9A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B706CD2-AD26-4BDA-87D1-9535A00E9A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B706CD2-AD26-4BDA-87D1-9535A00E9A49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
